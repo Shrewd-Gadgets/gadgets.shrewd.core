@@ -70,7 +70,7 @@ public class Words_IntersectionTest {
     public void find_a_complex_intersection() {
         String primary = "There are, sometimes, a gathering of Honorable Intentions.";
         String secondary = "However!  It doesn't always work.";
-        String expected = " aeHIln.orst";
+        String expected = " .HIaelnorst";
 
         assertEquals("The inputs should have nothing in common",
                 expected, Words.intersection(primary, secondary));
