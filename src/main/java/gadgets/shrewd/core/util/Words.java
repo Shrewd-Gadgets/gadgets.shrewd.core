@@ -87,6 +87,7 @@ public class Words {
                 "" :
                 prime.stream()
                         .map(String::valueOf)
+                        .sorted(String::compareTo)
                         .collect(Collectors.joining(""));
     }
 
